@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8CDD3B5D-CA2F-2FE7-F057-C9CC78257F52" name="ARBOL">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-08-26 18:24:31 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="5385422F-00EC-83C5-EE64-A7A07FA147C2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_arbol" id="99CCBEB5-D397-63DA-A557-B15EFEAC7C19">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-08-26 18:24:46 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="5385422F-00EC-83C5-EE64-A7A07FA147C2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="injerto_arbol_tipo" id="E22E0FE9-790B-AA84-9690-C8228E53A52B">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-08-26 18:26:16 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="5385422F-00EC-83C5-EE64-A7A07FA147C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="anio_plantado" id="9C9E6CB1-18FC-B71F-6FAA-9D3D5335BC39">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-08-26 18:27:10 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="5385422F-00EC-83C5-EE64-A7A07FA147C2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="anio_muerte" id="2CD2607E-2EB6-A136-9167-F53F9FD9D398">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-08-26 18:27:33 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="5385422F-00EC-83C5-EE64-A7A07FA147C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_huerto" id="8061AA96-7ECF-FA37-35EE-4D8CC4FB45AD">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-08-26 18:57:09 UTC</createdTime>
+<generatorID>F01E8355-314A-F35A-430C-48092DFB0840</generatorID>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="5385422F-00EC-83C5-EE64-A7A07FA147C2" value="true"/>
+</engineerTo>
+<referedAttribute>E01422F7-6226-C2CA-865D-689E33FBD25F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_arbol_tipo" id="B974C212-7434-66FF-B4D3-0F9A12306566">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-08-26 18:57:41 UTC</createdTime>
+<generatorID>59759796-7D27-0436-4BA0-FBCC0EF5B77D</generatorID>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="5385422F-00EC-83C5-EE64-A7A07FA147C2" value="true"/>
+</engineerTo>
+<referedAttribute>B4D17D29-C597-DCFC-075C-1A565000C253</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="00390CA8-BBEC-F726-9A7F-5725AB0931C0" name="ARBOL PK">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-08-26 18:25:02 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="5385422F-00EC-83C5-EE64-A7A07FA147C2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>99CCBEB5-D397-63DA-A557-B15EFEAC7C19</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

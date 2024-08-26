@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="8CDD3B5D-CA2F-2FE7-F057-C9CC78257F52" name="ARBOL" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="45412058-1F2B-AE30-E6F9-3075D2B9154C" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="1FD6D054-CC7A-DD0F-4042-AC60DA4E4535" name="ARBOL_TIPO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="45412058-1F2B-AE30-E6F9-3075D2B9154C" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="8022A4BE-C49E-F656-2264-BC02D473A25F" name="HUERTO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="45412058-1F2B-AE30-E6F9-3075D2B9154C" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="F01E8355-314A-F35A-430C-48092DFB0840" name="huerto_arbol" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="45412058-1F2B-AE30-E6F9-3075D2B9154C" propertySourceId="8022A4BE-C49E-F656-2264-BC02D473A25F" propertyTargetId="8CDD3B5D-CA2F-2FE7-F057-C9CC78257F52"/>
+   <object objectType="Relation" objectID="59759796-7D27-0436-4BA0-FBCC0EF5B77D" name="tipo_arbol" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="45412058-1F2B-AE30-E6F9-3075D2B9154C" propertySourceId="1FD6D054-CC7A-DD0F-4042-AC60DA4E4535" propertyTargetId="8CDD3B5D-CA2F-2FE7-F057-C9CC78257F52"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

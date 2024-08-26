@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="tipo_arbol" directorySegmentName="seg_0" id="59759796-7D27-0436-4BA0-FBCC0EF5B77D">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-08-26 18:57:41 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="5385422F-00EC-83C5-EE64-A7A07FA147C2" value="true"/>
+</engineerTo>
+<sourcePk>E4CC08D8-7A25-79EE-A969-6297B51A5BE7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1FD6D054-CC7A-DD0F-4042-AC60DA4E4535</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8CDD3B5D-CA2F-2FE7-F057-C9CC78257F52</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

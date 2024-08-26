@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="47496FF9-7C00-1FE4-B8EB-511B49287E5C" name="ARBOL_TIPO">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-08-26 18:58:52 UTC</createdTime>
+<generatorID>1FD6D054-CC7A-DD0F-4042-AC60DA4E4535</generatorID>
+<ownerDesignName>modelo1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_arbol_tipo" id="40FB0532-9F9F-A791-933A-537DF1780FE7">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-08-26 18:58:52 UTC</createdTime>
+<generatorID>B4D17D29-C597-DCFC-075C-1A565000C253</generatorID>
+<ownerDesignName>modelo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="especie" id="E20B79F0-61CA-6929-E897-2AF4E9FCE10B">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-08-26 18:58:52 UTC</createdTime>
+<generatorID>A2ABF73F-3424-556D-F45C-AD76824B1D68</generatorID>
+<ownerDesignName>modelo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="variedad" id="B81B1B00-EBAD-FF0F-DD54-C72CA99D37EC">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-08-26 18:58:52 UTC</createdTime>
+<generatorID>E2DB01DD-1B69-3D3A-1907-886EACAE2C7D</generatorID>
+<ownerDesignName>modelo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2DE76E62-2F1B-C77B-71BF-F9E78C86CFCC" name="ARBOL_TIPO_PK">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-08-26 18:58:52 UTC</createdTime>
+<generatorID>E4CC08D8-7A25-79EE-A969-6297B51A5BE7</generatorID>
+<ownerDesignName>modelo1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40FB0532-9F9F-A791-933A-537DF1780FE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

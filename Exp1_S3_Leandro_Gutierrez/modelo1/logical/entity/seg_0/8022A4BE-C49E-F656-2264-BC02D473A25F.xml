@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8022A4BE-C49E-F656-2264-BC02D473A25F" name="HUERTO">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-08-26 18:12:22 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="5385422F-00EC-83C5-EE64-A7A07FA147C2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_huerto" id="E01422F7-6226-C2CA-865D-689E33FBD25F">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-08-26 18:14:32 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="5385422F-00EC-83C5-EE64-A7A07FA147C2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_huerto" id="A542892B-62FB-764D-4EEE-906F67C7FF63">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-08-26 18:15:10 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="5385422F-00EC-83C5-EE64-A7A07FA147C2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="area" id="999E64A3-EBB3-79BC-0509-5EA928B1C5AE">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-08-26 18:18:07 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="5385422F-00EC-83C5-EE64-A7A07FA147C2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="administrador" id="C720BB5E-3347-D0A4-A83F-570650ABAEBA">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-08-26 18:18:46 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="5385422F-00EC-83C5-EE64-A7A07FA147C2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0484AA0E-3A48-75E4-5F49-7EDC600756A8" name="HUERTO PK">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-08-26 18:14:57 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="5385422F-00EC-83C5-EE64-A7A07FA147C2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E01422F7-6226-C2CA-865D-689E33FBD25F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

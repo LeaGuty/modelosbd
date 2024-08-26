@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="56D4EFDE-4861-38C8-8972-24C1B8D9B346" name="ARBOL">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-08-26 18:58:52 UTC</createdTime>
+<generatorID>8CDD3B5D-CA2F-2FE7-F057-C9CC78257F52</generatorID>
+<ownerDesignName>modelo1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_arbol" id="33A14705-2D3A-F43A-6995-CB48422BCE54">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-08-26 18:58:52 UTC</createdTime>
+<generatorID>99CCBEB5-D397-63DA-A557-B15EFEAC7C19</generatorID>
+<ownerDesignName>modelo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="injerto_arbol_tipo" id="622ECA8A-5F5A-97F4-E328-481EE0B4B05B">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-08-26 18:58:52 UTC</createdTime>
+<generatorID>E22E0FE9-790B-AA84-9690-C8228E53A52B</generatorID>
+<ownerDesignName>modelo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="anio_plantado" id="296EFBFB-434C-F501-4E14-94C1573421A8">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-08-26 18:58:52 UTC</createdTime>
+<generatorID>9C9E6CB1-18FC-B71F-6FAA-9D3D5335BC39</generatorID>
+<ownerDesignName>modelo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="anio_muerte" id="97DF9A35-6EB3-D43C-B0D2-64D86A7E04FA">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-08-26 18:58:52 UTC</createdTime>
+<generatorID>2CD2607E-2EB6-A136-9167-F53F9FD9D398</generatorID>
+<ownerDesignName>modelo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HUERTO_id_huerto" id="920CC897-788C-59B6-E22A-B7D6DB45D361">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-08-26 18:58:52 UTC</createdTime>
+<generatorID>8061AA96-7ECF-FA37-35EE-4D8CC4FB45AD</generatorID>
+<ownerDesignName>modelo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8ED51948-C9B7-4DC5-6AFE-5E2E98D0463C" referredColumn="018DD931-6381-5D7D-BA03-C136A4D6B835"/>
+</associations>
+</Column>
+<Column name="ARBOL_TIPO_id_arbol_tipo" id="3DCC7048-0BDC-3889-2F02-F663B667CAFA">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-08-26 18:58:52 UTC</createdTime>
+<generatorID>B974C212-7434-66FF-B4D3-0F9A12306566</generatorID>
+<ownerDesignName>modelo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA45946A-2051-522A-1520-DA5DF3037637" referredColumn="40FB0532-9F9F-A791-933A-537DF1780FE7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F3B553FD-7596-31DA-C801-2B5E1BE878A4" name="ARBOL_PK">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-08-26 18:58:52 UTC</createdTime>
+<generatorID>00390CA8-BBEC-F726-9A7F-5725AB0931C0</generatorID>
+<ownerDesignName>modelo1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33A14705-2D3A-F43A-6995-CB48422BCE54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D516AEEF-28B0-A4B8-D490-C2C7B165B973" name="ARBOL_HUERTO_FK">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-08-26 18:58:52 UTC</createdTime>
+<generatorID>F01E8355-314A-F35A-430C-48092DFB0840</generatorID>
+<ownerDesignName>modelo1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="920CC897-788C-59B6-E22A-B7D6DB45D361"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46DD5F1C-9C4D-F66C-B987-2EA1703F85F1" name="ARBOL_ARBOL_TIPO_FK">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-08-26 18:58:52 UTC</createdTime>
+<generatorID>59759796-7D27-0436-4BA0-FBCC0EF5B77D</generatorID>
+<ownerDesignName>modelo1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DCC7048-0BDC-3889-2F02-F663B667CAFA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
