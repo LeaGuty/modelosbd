@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EE66F6C0-2478-486E-8956-82280CA62B44" containerWithKeyObject="94F33671-0DB6-FC16-24B4-45D02897A5E3" localFKIndex="4D5ADE01-6B0B-1DE3-8A7B-416B44547F83" name="SEGUIMIENTO_SERVICIO_FK">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<generatorID>4C741797-81A4-F093-A586-A99F0788609F</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>92DF092D-E4EE-0FE1-A9DC-111045D625E6</importedID>
+<referredTableLongName>SERVICIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>942FFCD8-1506-DFF1-712E-3B840CE0EE5E</referredTableID>
+<keyObject>3F19C353-CDE3-3A7A-7A90-2B03C20A4C4B</keyObject>
+<referredKeyID>3F19C353-CDE3-3A7A-7A90-2B03C20A4C4B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_servicio</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

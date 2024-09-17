@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="repuesto_auto" directorySegmentName="seg_0" id="A635872A-01EE-60FD-6D59-F8849945297A">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>1462D5B2-D93F-4479-2C4B-EC41ECC335A8</importedID>
+<engineerTo>
+<item key="CEAB9733-F361-C9EA-F14C-72B0E6C21420" value="true"/>
+<item key="8772427D-F193-CC5B-473D-83085C8017F7" value="true"/>
+</engineerTo>
+<sourcePk>72A21E24-DCD6-A779-A2E6-2C8352E40552</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3A5331B0-2B43-A5E0-68D9-B3C2F9928903</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CD91A097-338C-D1A6-B49D-3A467CC74C62</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="96C78D33-2B2F-238A-EA81-28A5CC82B274" name="REPUESTO">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 01:48:41 UTC</createdTime>
+<generatorID>3A5331B0-2B43-A5E0-68D9-B3C2F9928903</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_repuesto" id="A66554C6-D293-BD1B-C3FB-185A624E568E">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 01:48:41 UTC</createdTime>
+<generatorID>C8F0F3BE-BE44-ED76-4CE3-FFC7C1CE5119</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_respuesto" id="BAE8B467-FA99-FD99-D858-AEE0ADC2440B">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 01:48:41 UTC</createdTime>
+<generatorID>144816CB-4A33-6505-BCD9-DD0035DD2814</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion_repuesto" id="44528065-F1A4-E082-4A7A-21F157004EB9">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 01:48:41 UTC</createdTime>
+<generatorID>A712EB85-3BF4-1992-0E63-6EA297329D2C</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_repuesto" id="987F2BA7-7450-3B48-4B6C-B735AF96F13A">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 01:48:41 UTC</createdTime>
+<generatorID>64365FD1-43AD-39C7-0CAF-C18C6B207489</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT049</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>30</dataTypeScale>
+<ownDataTypeParameters>,0,30</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0DFFFC2E-7791-2762-E4B4-039D038E2B9A" name="REPUESTO_PK">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 01:48:41 UTC</createdTime>
+<generatorID>72A21E24-DCD6-A779-A2E6-2C8352E40552</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A66554C6-D293-BD1B-C3FB-185A624E568E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC029CD0-044A-7DD9-208B-CAD60C5CCF63" name="REPUESTO_SERVICIO_REPUESTO_FK">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 01:48:41 UTC</createdTime>
+<generatorID>5C58F2CB-F63A-A2E3-D52D-209FC64DA10D</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

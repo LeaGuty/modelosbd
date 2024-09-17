@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="99254DB2-0EF9-6E6B-C8AE-4EB5C19F70F4" name="CLIENTE">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 01:48:41 UTC</createdTime>
+<generatorID>E6BD6356-6817-528B-39A1-3F871CDB380B</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rut_cliente" id="0097F6F2-B30F-88D3-9947-216DD86A9302">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 01:48:41 UTC</createdTime>
+<generatorID>31D883FF-B4C9-B014-61E0-8C87CE28DAB0</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombres_cliente" id="23254724-F3CC-C3CD-654E-E1460D0D479B">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 01:48:41 UTC</createdTime>
+<generatorID>59BDC5F0-10AF-253A-DF9E-85DA70B7CF54</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellidos_cliente" id="0065C10A-1F6D-A3A1-4FE1-3E470FC95E75">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 01:48:41 UTC</createdTime>
+<generatorID>34612582-A88F-8508-1B0B-3FBA418AC7B6</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion_region_cliente" id="8DB819E1-0FF8-0EC2-2897-090585938AAB">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 01:48:41 UTC</createdTime>
+<generatorID>2DF0FB1B-9379-0B9B-D648-94856B94DCE1</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion_ciudad_cliente" id="CC2D6F35-FCDD-9773-560E-F35741B1BA29">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 01:48:41 UTC</createdTime>
+<generatorID>D74DEACD-C4F8-AA01-7D4A-D852BF32B542</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion_comuna_cliente" id="67C69754-B3BB-B258-CED0-5D83452EEAAE">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 01:48:41 UTC</createdTime>
+<generatorID>7A49A66C-583F-E20B-41C2-9649C3910820</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion_callenumeracion_cliente" id="D41CE241-6E05-BD22-4266-D238FEB6D3A8">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 01:48:41 UTC</createdTime>
+<generatorID>A8D18F86-DCD4-B1F3-6B2A-D161FC9F2992</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email_cliente" id="8C968C40-D7BA-D209-6578-8C7EE8F75E09">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 01:48:41 UTC</createdTime>
+<generatorID>EFC3BF89-B7E5-6957-7D38-E0FF3D629877</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono_cliente" id="618B621F-132B-7BD7-5F34-D556D0EE69CE">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 01:48:41 UTC</createdTime>
+<generatorID>9BAE803B-ACDD-3000-C71C-0177D8F5841D</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9A96FF22-9741-22E0-A31F-FF618A3A8944" name="CLIENTE_PK">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 01:48:41 UTC</createdTime>
+<generatorID>A95D2892-241E-BB24-CE3F-C208BC238F38</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0097F6F2-B30F-88D3-9947-216DD86A9302"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

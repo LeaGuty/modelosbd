@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="24182184-02ED-5B39-7390-B2B7F7685D39" name="ORDEN_SERVICIO">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>E3EFFC40-CE8E-FC5C-9D2F-532947481371</importedID>
+<engineerTo>
+<item key="CEAB9733-F361-C9EA-F14C-72B0E6C21420" value="true"/>
+<item key="8772427D-F193-CC5B-473D-83085C8017F7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_orden" id="8D566BF8-1476-97DF-A060-6061F927C6A4">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<generatorID>419C345D-7E0A-45E5-F29F-3F271C200C74</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>695E299F-3581-5147-9A5B-A9950AAA39DB</importedID>
+<engineerTo>
+<item key="CEAB9733-F361-C9EA-F14C-72B0E6C21420" value="true"/>
+<item key="8772427D-F193-CC5B-473D-83085C8017F7" value="true"/>
+</engineerTo>
+<referedAttribute>420E2B51-9327-7CEE-84BD-ED46F2FB355C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_servicio" id="8822868B-3276-C070-D0F5-B0A5A87F1EFD">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<generatorID>BFC91D55-B821-326E-A37E-2FCE7B575D75</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>282AA091-C072-1079-2C97-B3CCA4F852C6</importedID>
+<engineerTo>
+<item key="CEAB9733-F361-C9EA-F14C-72B0E6C21420" value="true"/>
+<item key="8772427D-F193-CC5B-473D-83085C8017F7" value="true"/>
+</engineerTo>
+<referedAttribute>9210481B-640A-8269-194E-6449F4535C86</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

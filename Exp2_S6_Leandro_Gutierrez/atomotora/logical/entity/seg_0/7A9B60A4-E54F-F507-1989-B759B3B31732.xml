@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7A9B60A4-E54F-F507-1989-B759B3B31732" name="ORDEN">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>1B0A3AD1-8E63-285D-AEB4-63DD92C4F881</importedID>
+<engineerTo>
+<item key="CEAB9733-F361-C9EA-F14C-72B0E6C21420" value="true"/>
+<item key="8772427D-F193-CC5B-473D-83085C8017F7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_orden" id="420E2B51-9327-7CEE-84BD-ED46F2FB355C">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>07992DEE-AC1D-0A5D-599F-D7E529FF4B52</importedID>
+<engineerTo>
+<item key="CEAB9733-F361-C9EA-F14C-72B0E6C21420" value="true"/>
+<item key="8772427D-F193-CC5B-473D-83085C8017F7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_orden" id="66D9138A-7436-BAD5-283A-8E8BDCBF9F20">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>5F20A768-DF89-A16A-D926-57157055361F</importedID>
+<engineerTo>
+<item key="CEAB9733-F361-C9EA-F14C-72B0E6C21420" value="true"/>
+<item key="8772427D-F193-CC5B-473D-83085C8017F7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="facturado" id="401AE24B-83AF-1E13-33ED-6CCB526EBD8F">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>DE954582-A0F1-DD5A-E392-7B392CA58545</importedID>
+<engineerTo>
+<item key="CEAB9733-F361-C9EA-F14C-72B0E6C21420" value="true"/>
+<item key="8772427D-F193-CC5B-473D-83085C8017F7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT033</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="observacion" id="9F6CCAF2-FD84-46D7-8DAB-9B675FF316A9">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>2E3F0ABA-4829-FE6B-AB5A-2E297E59E208</importedID>
+<engineerTo>
+<item key="CEAB9733-F361-C9EA-F14C-72B0E6C21420" value="true"/>
+<item key="8772427D-F193-CC5B-473D-83085C8017F7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="patente" id="8091B33F-BD67-D170-6740-8722EE42D81D">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<generatorID>F70430E8-1A84-AB6E-9DDF-7906148FC277</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>26C386C8-96CB-936A-6228-A37D3A28B8A3</importedID>
+<engineerTo>
+<item key="CEAB9733-F361-C9EA-F14C-72B0E6C21420" value="true"/>
+<item key="8772427D-F193-CC5B-473D-83085C8017F7" value="true"/>
+</engineerTo>
+<referedAttribute>933B68E8-835A-0978-5048-F0BCE4D214E5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut_cliente" id="4B1AD366-47BB-E557-488A-8C5817353F36">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 01:45:50 UTC</createdTime>
+<generatorID>5AF5B804-D502-2432-64B6-1D5E7F1B85A3</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<engineerTo>
+<item key="CEAB9733-F361-C9EA-F14C-72B0E6C21420" value="true"/>
+<item key="8772427D-F193-CC5B-473D-83085C8017F7" value="true"/>
+</engineerTo>
+<referedAttribute>31D883FF-B4C9-B014-61E0-8C87CE28DAB0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="90D37B14-9C67-3C33-079F-11AF7E37FBE5" name="ORDEN_SERVICIO PK">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>6B309C16-B4C6-17AC-7FA3-B4785984855C</importedID>
+<engineerTo>
+<item key="CEAB9733-F361-C9EA-F14C-72B0E6C21420" value="true"/>
+<item key="8772427D-F193-CC5B-473D-83085C8017F7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>420E2B51-9327-7CEE-84BD-ED46F2FB355C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

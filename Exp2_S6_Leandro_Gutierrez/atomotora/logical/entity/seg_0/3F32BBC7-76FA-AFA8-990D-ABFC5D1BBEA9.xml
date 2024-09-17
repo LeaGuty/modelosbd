@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3F32BBC7-76FA-AFA8-990D-ABFC5D1BBEA9" name="VEHICULO">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>603013E0-BBF6-5E5C-B91C-00799179141C</importedID>
+<engineerTo>
+<item key="CEAB9733-F361-C9EA-F14C-72B0E6C21420" value="true"/>
+<item key="8772427D-F193-CC5B-473D-83085C8017F7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="patente" id="933B68E8-835A-0978-5048-F0BCE4D214E5">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>D1A576EA-6740-0B84-B918-8276955068A8</importedID>
+<engineerTo>
+<item key="CEAB9733-F361-C9EA-F14C-72B0E6C21420" value="true"/>
+<item key="8772427D-F193-CC5B-473D-83085C8017F7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="color" id="AFD603AE-C547-2795-EED2-1B8A2366BA8E">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>66E64E59-07B5-E12E-D671-1538EF858B91</importedID>
+<engineerTo>
+<item key="CEAB9733-F361-C9EA-F14C-72B0E6C21420" value="true"/>
+<item key="8772427D-F193-CC5B-473D-83085C8017F7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="anio" id="4FDBC36C-AAC4-F029-1B7C-06A824DAB650">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>FEC87407-5A9D-DA5B-0EE0-187062A6D717</importedID>
+<engineerTo>
+<item key="CEAB9733-F361-C9EA-F14C-72B0E6C21420" value="true"/>
+<item key="8772427D-F193-CC5B-473D-83085C8017F7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_vehiculo_clase" id="E09C519B-B2BF-1625-36D2-3BBE728DD808">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<generatorID>060102B0-0508-B4FB-55D3-B70C02186F5C</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>5654A8CD-62D4-1B92-C953-708E3FE2E03C</importedID>
+<engineerTo>
+<item key="CEAB9733-F361-C9EA-F14C-72B0E6C21420" value="true"/>
+<item key="8772427D-F193-CC5B-473D-83085C8017F7" value="true"/>
+</engineerTo>
+<referedAttribute>2EDE6EE1-682B-E79C-D5D7-ED99D9F12EE5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BB976D15-021E-A06A-E773-3338B98AA406" name="VEHICULO PK">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>C286D392-8B77-8363-A3B0-A7900D5EE57D</importedID>
+<engineerTo>
+<item key="CEAB9733-F361-C9EA-F14C-72B0E6C21420" value="true"/>
+<item key="8772427D-F193-CC5B-473D-83085C8017F7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>933B68E8-835A-0978-5048-F0BCE4D214E5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

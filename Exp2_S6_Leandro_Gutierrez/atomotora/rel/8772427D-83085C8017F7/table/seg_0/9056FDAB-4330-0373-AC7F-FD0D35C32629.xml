@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9056FDAB-4330-0373-AC7F-FD0D35C32629" name="SERVICIO_REPUESTO">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<generatorID>2A3C7761-2ED5-C6CA-53A7-ABF674A7BCBF</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>2F3B61B3-26F0-0B1F-25C8-9DB37B11A61C</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SERVICIO_id_servicio" id="1E973E37-719B-2CCB-789D-4A11B05CCA01">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<generatorID>5C69538A-82BE-B6C3-1D5C-CE8F2790A3E5</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>03A73FD5-E23C-5AC6-CDAA-2FA19B6E221C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E76C9123-EE86-58C8-9290-C38985A424B0" referredColumn="48C33EE6-F34F-FF9B-0735-C8003445888A"/>
+</associations>
+</Column>
+<Column name="cantidad" id="46FB95AF-EC81-DF16-1944-B370051B3F65">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<generatorID>B5173F57-59E3-AE23-4C60-F833743D6E7E</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>947DA2EF-7421-5AD8-BA62-1A8BDDAFC787</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REPUESTO_id_repuesto" id="26B65009-CBF9-E8CD-5B62-B926FDC1A17D">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<generatorID>CBA023FB-0BA5-BCEE-6BFB-615C69DB1126</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>1FFA43D1-6FEE-E8CA-3651-EAD3F0A878B6</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AD67E3B3-EF28-F0F2-3C16-37556AF55E58" referredColumn="7B799026-BC00-8C97-B4FA-4993F12E773E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0F18976A-A0A2-0D50-F259-B7E52B251E79" name="SERVICIO_REPUESTO_PK">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<generatorID>670858A5-0059-B565-4EB6-0FB69439DEF0</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>BACB925F-EF09-E8FB-BEB6-C232ADCB5FE8</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="BAD09DEC-CB42-771B-2830-EC02D40683F0" name="SERVICIO_REPUESTO__IDX">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>19BE3E39-352F-2551-2CD3-492C3DC4281C</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26B65009-CBF9-E8CD-5B62-B926FDC1A17D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1E8630D-D9AE-D5CA-C0E2-F2C643571450" name="SERVICIO_REPUESTO_REPUESTO_FK">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<generatorID>5C58F2CB-F63A-A2E3-D52D-209FC64DA10D</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26B65009-CBF9-E8CD-5B62-B926FDC1A17D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C5A223A-F321-49E5-D857-C1B2CBDCDA63" name="SERVICIO_REPUESTO_SERVICIO_FK">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<generatorID>86F7FEC7-6790-83DC-CE4E-8AA81CC0D0A5</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E973E37-719B-2CCB-789D-4A11B05CCA01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

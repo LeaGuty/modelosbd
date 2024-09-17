@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="orden_vehiculo" directorySegmentName="seg_0" id="F70430E8-1A84-AB6E-9DDF-7906148FC277">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>53B223E4-4834-9B0C-7AD8-85F118B31CB7</importedID>
+<engineerTo>
+<item key="CEAB9733-F361-C9EA-F14C-72B0E6C21420" value="true"/>
+<item key="8772427D-F193-CC5B-473D-83085C8017F7" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<sourcePk>90D37B14-9C67-3C33-079F-11AF7E37FBE5</sourcePk>
+<targetPk>BB976D15-021E-A06A-E773-3338B98AA406</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>7A9B60A4-E54F-F507-1989-B759B3B31732</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>3F32BBC7-76FA-AFA8-990D-ABFC5D1BBEA9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

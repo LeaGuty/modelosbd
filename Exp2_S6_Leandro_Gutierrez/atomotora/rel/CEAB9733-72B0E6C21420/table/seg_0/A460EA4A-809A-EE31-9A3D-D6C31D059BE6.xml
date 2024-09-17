@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A460EA4A-809A-EE31-9A3D-D6C31D059BE6" name="VEHICULO_REPUESTO">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 01:48:41 UTC</createdTime>
+<generatorID>CD91A097-338C-D1A6-B49D-3A467CC74C62</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="REPUESTO_id_repuesto" id="531407B4-8A33-DB8D-BE0C-8F08AC2F5B20">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 01:48:41 UTC</createdTime>
+<generatorID>4874469C-DF64-22E2-BA2D-0C8D2FDADCAA</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E36E1DEF-1989-7F72-D0B4-FD330190FEED" referredColumn="A66554C6-D293-BD1B-C3FB-185A624E568E"/>
+</associations>
+</Column>
+<Column name="VEHICULO_CLASE_id_vehiculo_clase" id="5B1906F8-1EE9-DF1F-F31B-7CCEB88CDC42">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 01:48:41 UTC</createdTime>
+<generatorID>B59586CC-8F8A-51E9-8890-CF90AF35D0E0</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="906DE4FD-4851-8AD4-8F8A-E324E68280BD" referredColumn="AE1186E9-3E9D-7D65-9607-4063B52F66C5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="714ADE16-E5C2-E7AD-827F-1A95A65A1B25" name="VEHICULO_REPUESTO_VEHICULO_CLASE_FK">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 01:48:41 UTC</createdTime>
+<generatorID>ED3B8FBC-148B-86AE-4D2D-DDC4960A126C</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B1906F8-1EE9-DF1F-F31B-7CCEB88CDC42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F1875D3-296D-1283-AD88-72A9DE8FE30A" name="VEHICULO_REPUESTO_REPUESTO_FK">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 01:48:41 UTC</createdTime>
+<generatorID>A635872A-01EE-60FD-6D59-F8849945297A</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="531407B4-8A33-DB8D-BE0C-8F08AC2F5B20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="atomotora" id="23C24AED-4C48-E436-632A-87A536CF4883" version="3.5">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:21:04 UTC</createdTime>
+<ownerDesignName>atomotora</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>23C24AED-4C48-E436-632A-87A536CF4883</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="40C08FF3-E1F7-98DD-31FA-5DCD496A046D">
+<designStoragePath>C:\Users\lgutierrez\Documents\Desarrollo APP\BBDD\mantencion_autos\automotora</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

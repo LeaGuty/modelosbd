@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="942FFCD8-1506-DFF1-712E-3B840CE0EE5E" name="SERVICIO">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<generatorID>BB3C19BB-A40F-C958-735E-8A1458DC366E</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>265B46E8-5E6E-6ECD-7F32-A5F108FA1AA6</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_servicio" id="48C33EE6-F34F-FF9B-0735-C8003445888A">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<generatorID>9210481B-640A-8269-194E-6449F4535C86</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>25F8F806-3EC3-213A-2600-C585F288FC91</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="servivio" id="967746A1-E573-3E3B-1863-A4AD0B29359A">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<generatorID>699B5146-E9FC-322C-F7A8-A5D4BED00B76</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>2AE33DCE-90E0-FA75-29E1-B65D23A01DFC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_manodeobra" id="EBB343D2-D002-E5AA-CBF4-2B26C4A4A48C">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<generatorID>CC2543F3-7E54-E623-59C7-0A410EB82C58</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>390CA702-6DAA-9915-7F87-8E5B30572794</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>20</dataTypeScale>
+<ownDataTypeParameters>,0,20</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado_servicio" id="DD3BA17B-F2DF-B55F-C3B6-C9BCFCE65568">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<generatorID>A2A0F6AC-9135-A0FF-52F8-865A5F874916</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>213597B7-A0C5-D252-2E51-45994BA17B07</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F19C353-CDE3-3A7A-7A90-2B03C20A4C4B" name="SERVICIO_PK">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<generatorID>0A07A811-578F-CF4B-079A-0BA5A1FAFDD7</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>D48EFB7A-AFBA-8A1C-8927-5C6051480A1F</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48C33EE6-F34F-FF9B-0735-C8003445888A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

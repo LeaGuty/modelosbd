@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8B7E2A07-9778-D8C5-AF0C-724770312083" name="ORDEN_SERVICIO">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 01:48:41 UTC</createdTime>
+<generatorID>24182184-02ED-5B39-7390-B2B7F7685D39</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ORDEN_id_orden" id="D4F39795-EBCE-8B89-9BE8-4864D5CBF933">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 01:48:41 UTC</createdTime>
+<generatorID>8D566BF8-1476-97DF-A060-6061F927C6A4</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="17218A8F-E2B5-9A97-9CF4-ABEA0AC28089" referredColumn="9B8AE8AE-5A80-905D-71B4-9834C8F30E43"/>
+</associations>
+</Column>
+<Column name="SERVICIO_id_servicio" id="DB3A6B8F-CB89-0D1C-0CF0-886B19326A36">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 01:48:41 UTC</createdTime>
+<generatorID>8822868B-3276-C070-D0F5-B0A5A87F1EFD</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA9FE9E2-4F95-8CEA-D683-FB56D1C98229" referredColumn="C4A347E8-0AC6-1E18-602E-5C85BC6E47B1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6FD9314A-5E2C-5768-D04B-34CDFB7148E0" name="ORDEN_SERVICIO_ORDEN_FK">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 01:48:41 UTC</createdTime>
+<generatorID>419C345D-7E0A-45E5-F29F-3F271C200C74</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4F39795-EBCE-8B89-9BE8-4864D5CBF933"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="60E554ED-1F89-673E-9FB1-F44343BB7CDE" name="ORDEN_SERVICIO_SERVICIO_FK">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 01:48:41 UTC</createdTime>
+<generatorID>BFC91D55-B821-326E-A37E-2FCE7B575D75</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB3A6B8F-CB89-0D1C-0CF0-886B19326A36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

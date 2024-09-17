@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DDA693FA-CFB4-E666-A32C-759ECF6782E7" name="REPUESTO">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<generatorID>3A5331B0-2B43-A5E0-68D9-B3C2F9928903</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>CD167C39-1BA7-5260-68E4-A8239B9BDB55</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_repuesto" id="7B799026-BC00-8C97-B4FA-4993F12E773E">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<generatorID>C8F0F3BE-BE44-ED76-4CE3-FFC7C1CE5119</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>920D0201-263B-03A5-BB91-EBEC39B3D576</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_respuesto" id="1108690A-F79F-4B8F-0A79-6090AB14326E">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<generatorID>144816CB-4A33-6505-BCD9-DD0035DD2814</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>9B260F5C-A258-D0CD-C419-F3E51054C862</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion_repuesto" id="092B257C-B206-C39F-4C39-EEBCF25A8288">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<generatorID>A712EB85-3BF4-1992-0E63-6EA297329D2C</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>AAF23603-32B2-AAD2-F6B1-E952681E27CE</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_repuesto" id="EBBD185C-65BC-58FB-710E-C0549A56F825">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<generatorID>64365FD1-43AD-39C7-0CAF-C18C6B207489</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>3AFA9585-8A8E-6178-0E5F-8F860207D94E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT049</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>30</dataTypeScale>
+<ownDataTypeParameters>,0,30</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB3E6BE5-BBD8-C563-9FE4-444E70DE81DD" name="REPUESTO_PK">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<generatorID>72A21E24-DCD6-A779-A2E6-2C8352E40552</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>1D65D0A8-19F3-BA4E-8F03-CC7771D09576</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B799026-BC00-8C97-B4FA-4993F12E773E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9ABFC68-5BE1-92AC-2D2B-3BC196D5ABBF" name="REPUESTO_SERVICIO_REPUESTO_FK">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<generatorID>5C58F2CB-F63A-A2E3-D52D-209FC64DA10D</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

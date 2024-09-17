@@ -1,0 +1,182 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6D419199-0ACE-20BA-30F8-E88757250566" name="CLIENTE">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<generatorID>E6BD6356-6817-528B-39A1-3F871CDB380B</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>93737AF7-AA2F-B4C9-93C3-3D04E0B97AFB</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rut_cliente" id="3A688446-A1E8-53A5-4484-217F8D085DE8">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<generatorID>31D883FF-B4C9-B014-61E0-8C87CE28DAB0</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>85CEA165-B682-D572-2763-45229491DFA8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombres_cliente" id="7BC543A3-5C51-F7FD-FDF7-0AA2825FD345">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<generatorID>59BDC5F0-10AF-253A-DF9E-85DA70B7CF54</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>28E8F63A-FDAD-8CE2-350D-3664605FBEB2</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellidos_cliente" id="D6ED650F-8811-A947-1DC0-7897AA9E1D5D">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<generatorID>34612582-A88F-8508-1B0B-3FBA418AC7B6</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>4822EA51-C1E9-7025-C913-FDF024B5ABB5</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion_region_cliente" id="171F0915-9515-7E7F-9F04-58FE79EC198A">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<generatorID>2DF0FB1B-9379-0B9B-D648-94856B94DCE1</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>2B6DCE57-2402-3A36-706D-62F9F2666899</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion_ciudad_cliente" id="72D28EBA-9797-275C-DF8F-381C1ED4006D">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<generatorID>D74DEACD-C4F8-AA01-7D4A-D852BF32B542</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>CC0F3CED-7B21-E12F-9AC9-3D806F9B98C0</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion_comuna_cliente" id="08A843E7-05ED-1E44-44CC-4922A8FD7207">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<generatorID>7A49A66C-583F-E20B-41C2-9649C3910820</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>0F49734D-E900-06CF-2E6E-119141E53529</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion_callenumeracion_cliente" id="8E0E84A0-3C42-1ECA-5CDB-CF8D16C66862">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<generatorID>A8D18F86-DCD4-B1F3-6B2A-D161FC9F2992</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>1CAC5408-6DF4-5027-3369-2CCBA677A728</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email_cliente" id="3CCB0054-E3D0-E7EB-8C1C-35126E0A77EC">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<generatorID>EFC3BF89-B7E5-6957-7D38-E0FF3D629877</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>599091FA-B94A-4EE5-A95A-DB9C80231C35</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono_cliente" id="5FC72C6C-6B02-9221-8611-01BF13161F40">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<generatorID>9BAE803B-ACDD-3000-C71C-0177D8F5841D</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>C734C36B-7A3B-88BC-58E7-16E7051DABD8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDEN_id_orden" id="4B1BE9BE-643F-9844-8441-E35F0CB275B6">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<generatorID>D22C90D1-CD01-95B4-AB62-43B32AFD1B55</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>3681FAA3-C867-ACCA-D2FF-E56B2E6D6718</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="308A3BC9-9EA6-5690-C200-AEBDB66005D7" referredColumn="A10FBD0C-2B44-3D00-10A8-48951FE3DB80"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="270E8305-55E5-5BFF-323B-D357F55C8A02" name="CLIENTE_PK">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<generatorID>A95D2892-241E-BB24-CE3F-C208BC238F38</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>59259E77-62EC-8DA6-F871-4155944DB0A9</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A688446-A1E8-53A5-4484-217F8D085DE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8070585-EE54-150F-A538-0C271C09C6AE" name="CLIENTE__IDX">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<ownerDesignName>atomotora</ownerDesignName>
+<importedID>6E926786-AF49-53F5-A28D-ED6DB4C7A378</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B1BE9BE-643F-9844-8441-E35F0CB275B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28840A29-CFC3-6623-FA63-A122B1FAB3AE" name="CLIENTE_ORDEN_FK">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 00:23:05 UTC</createdTime>
+<generatorID>5AF5B804-D502-2432-64B6-1D5E7F1B85A3</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B1BE9BE-643F-9844-8441-E35F0CB275B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EF4924E3-6F2D-C156-AAE0-1B26246DAEFB" containerWithKeyObject="9807D053-DC65-54AA-03F0-4E90D32A8664" localFKIndex="8A540705-D3DA-C8CA-736E-7CA523A741F9" name="SERVICIO_REPUESTO_REPUESTO_FK">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-09-17 01:48:41 UTC</createdTime>
+<generatorID>5C58F2CB-F63A-A2E3-D52D-209FC64DA10D</generatorID>
+<ownerDesignName>atomotora</ownerDesignName>
+<referredTableLongName>REPUESTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>96C78D33-2B2F-238A-EA81-28A5CC82B274</referredTableID>
+<keyObject>0DFFFC2E-7791-2762-E4B4-039D038E2B9A</keyObject>
+<referredKeyID>0DFFFC2E-7791-2762-E4B4-039D038E2B9A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_repuesto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
