@@ -1,0 +1,257 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="470DFA3E-667F-7AD7-AAA4-9DC0FD66E80A" name="PERSONA">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:43:06 UTC</createdTime>
+<generatorID>63CF9342-B8B3-BB86-2456-7B4AAC1C133B</generatorID>
+<ownerDesignName>IND</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rut" id="33258D37-420C-F600-8C8E-4F1F1D5272DE">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:43:06 UTC</createdTime>
+<generatorID>158B9BBC-9240-4FE7-F80D-7E860872B757</generatorID>
+<ownerDesignName>IND</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 BYTE</dataTypeSize>
+<ownDataTypeParameters>11 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombres" id="7CEE5EAD-8E1A-2E3A-57AD-80FA9E487E96">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:43:06 UTC</createdTime>
+<generatorID>8C15B6F8-A265-0A85-027F-909A4A172648</generatorID>
+<ownerDesignName>IND</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ap_paterno" id="6A0FEFFE-5988-7AFB-BF06-F3068A5BDBDA">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:43:06 UTC</createdTime>
+<generatorID>AB927455-5BC2-A06A-EED0-FCBE53309601</generatorID>
+<ownerDesignName>IND</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ap_materno" id="BC776A8F-2634-EC5E-4219-66C0AF0F7236">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:43:06 UTC</createdTime>
+<generatorID>BAC74B0E-8E7B-D497-C26A-1D58188C6A17</generatorID>
+<ownerDesignName>IND</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="f_nacimiento" id="A18D84AD-D533-7456-4D97-518B150F4B1B">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:43:06 UTC</createdTime>
+<generatorID>DE802183-4E74-E005-2E20-D88B59738F36</generatorID>
+<ownerDesignName>IND</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nacionalidad" id="4779D9F6-C981-7D31-C614-6CD89FA6CBA1">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:43:06 UTC</createdTime>
+<generatorID>6A7D1975-DD09-B0FC-E891-0923C312A919</generatorID>
+<ownerDesignName>IND</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sexo" id="054C6A72-BFB3-1D66-A50C-AA19F8FF7E63">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:43:06 UTC</createdTime>
+<generatorID>68B144C5-025A-159F-E13E-BEFA8F38686E</generatorID>
+<ownerDesignName>IND</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mail" id="E9476864-1B09-F0A8-7584-9C7C9ABAA8C0">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:43:06 UTC</createdTime>
+<generatorID>BCEA70E7-8B9A-43B4-E2D5-6A345EC28BA8</generatorID>
+<ownerDesignName>IND</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono1" id="DB359CD7-472B-FE37-2C5F-34A97329D4CD">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:43:06 UTC</createdTime>
+<generatorID>135D28F4-0F34-50A5-53D3-9EA0573C7DA7</generatorID>
+<ownerDesignName>IND</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono2" id="7BD7E334-AA5E-33E8-BF98-7C2B91A614C4">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:43:06 UTC</createdTime>
+<generatorID>B87095CC-5F21-BA27-1DF6-851A2AD6189D</generatorID>
+<ownerDesignName>IND</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="region" id="AFC598CC-B42A-BC09-C80A-B295B1B521E6">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:43:06 UTC</createdTime>
+<generatorID>DFA91526-CDFC-6BBC-D0A1-2A50C4CF7A00</generatorID>
+<ownerDesignName>IND</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comuna" id="44A9D845-AF40-6FF0-0518-AD40AD8DEF38">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:43:06 UTC</createdTime>
+<generatorID>100E9F83-F237-0633-690E-B959DB4304E6</generatorID>
+<ownerDesignName>IND</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="A1C0E68D-D2A2-7FF6-E709-6EFA322E5105">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:43:06 UTC</createdTime>
+<generatorID>B4208157-C6DB-BCBB-9729-AA87701AF1B3</generatorID>
+<ownerDesignName>IND</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estamento" id="2860ACB7-83A6-C40E-80BE-32D6E776A423">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:43:06 UTC</createdTime>
+<generatorID>25C53EDE-A7EE-CB76-A4BA-A4D846D4F9F6</generatorID>
+<ownerDesignName>IND</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rol_estamento" id="4DE626DB-BFBA-97FB-DC3C-A9AC36069A0A">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:43:06 UTC</createdTime>
+<generatorID>AD1198E3-DE08-E6C4-8441-567CD66565AB</generatorID>
+<ownerDesignName>IND</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="profesion_actividad" id="98BC84BB-BC9A-B5FC-4B36-6DE217265B6E">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:43:06 UTC</createdTime>
+<generatorID>8489B909-2581-8424-BEBB-9E27AB03A4DB</generatorID>
+<ownerDesignName>IND</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apoderado_rut" id="F43B5CB7-FB05-E2A4-E006-7A81DF60F843">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:43:06 UTC</createdTime>
+<generatorID>BB35EBAF-FE47-1716-DBF4-5F03F619901C</generatorID>
+<ownerDesignName>IND</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7992601-6780-17CC-4561-9FA713432283" referredColumn="33258D37-420C-F600-8C8E-4F1F1D5272DE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7541FB72-2A69-1E5A-19F4-893F45BC919F" name="PERSONA_PK">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:43:06 UTC</createdTime>
+<generatorID>CC16BE2C-0D5E-5338-4754-7CAA2BF4566B</generatorID>
+<ownerDesignName>IND</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33258D37-420C-F600-8C8E-4F1F1D5272DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="189D1A41-0AF9-79A1-EBDE-91974D0B4175" name="PERSONA__IDX">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:43:06 UTC</createdTime>
+<ownerDesignName>IND</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>A1EBAE94-017E-33EC-666D-D200AF2087E5</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="F43B5CB7-FB05-E2A4-E006-7A81DF60F843"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3B3D1106-6C68-4A04-4616-6E9AE5BCCED7" name="PERSONA_PERSONA_FK">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:43:06 UTC</createdTime>
+<generatorID>A1EBAE94-017E-33EC-666D-D200AF2087E5</generatorID>
+<ownerDesignName>IND</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F43B5CB7-FB05-E2A4-E006-7A81DF60F843"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

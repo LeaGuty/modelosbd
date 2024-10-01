@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="53DE7D3C-D740-86E3-9EB2-0638C4B89288" name="ESCUELA">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 00:48:58 UTC</createdTime>
+<ownerDesignName>IND</ownerDesignName>
+<engineerTo>
+<item key="29077A8A-B2CF-80B8-9B55-5F0B64130F15" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_escuela" id="98B24D47-373D-8A90-F68B-EFF43300AB6E">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 00:49:12 UTC</createdTime>
+<ownerDesignName>IND</ownerDesignName>
+<engineerTo>
+<item key="29077A8A-B2CF-80B8-9B55-5F0B64130F15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_escuela" id="521A8913-1092-3521-6D5F-21AE43B686BE">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 00:49:43 UTC</createdTime>
+<ownerDesignName>IND</ownerDesignName>
+<engineerTo>
+<item key="29077A8A-B2CF-80B8-9B55-5F0B64130F15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<ownDataTypeParameters>500 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_escuela" id="F298AA8C-D365-0137-ACC5-7F4A18D305A6">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 00:50:05 UTC</createdTime>
+<ownerDesignName>IND</ownerDesignName>
+<engineerTo>
+<item key="29077A8A-B2CF-80B8-9B55-5F0B64130F15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<ownDataTypeParameters>500 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="region_escuela" id="8099C802-CFFC-A4A7-5492-E75C9DADADC7">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 00:50:36 UTC</createdTime>
+<ownerDesignName>IND</ownerDesignName>
+<engineerTo>
+<item key="29077A8A-B2CF-80B8-9B55-5F0B64130F15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<ownDataTypeParameters>500 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comuna_escuela" id="E4CDA9C1-3DD3-5FF8-AF3A-66AC5F86030B">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 00:51:42 UTC</createdTime>
+<ownerDesignName>IND</ownerDesignName>
+<engineerTo>
+<item key="29077A8A-B2CF-80B8-9B55-5F0B64130F15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<ownDataTypeParameters>500 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion_escuela" id="DCB2C0F1-A0DD-7DD9-D475-F1CF32FC091F">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 00:53:25 UTC</createdTime>
+<ownerDesignName>IND</ownerDesignName>
+<engineerTo>
+<item key="29077A8A-B2CF-80B8-9B55-5F0B64130F15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 BYTE</dataTypeSize>
+<ownDataTypeParameters>1000 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mail_escuela" id="7618263A-12AC-FD34-AAF2-F386BD307B6F">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 00:54:14 UTC</createdTime>
+<ownerDesignName>IND</ownerDesignName>
+<engineerTo>
+<item key="29077A8A-B2CF-80B8-9B55-5F0B64130F15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono1_escuela" id="30746CFF-9AEB-034D-0943-2F5A3169EEEE">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 00:59:57 UTC</createdTime>
+<ownerDesignName>IND</ownerDesignName>
+<engineerTo>
+<item key="29077A8A-B2CF-80B8-9B55-5F0B64130F15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono2_escuela" id="7E1CB708-A40F-321D-1837-DD89D1A3A12A">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:00:22 UTC</createdTime>
+<ownerDesignName>IND</ownerDesignName>
+<engineerTo>
+<item key="29077A8A-B2CF-80B8-9B55-5F0B64130F15" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E4FA5F34-221E-7E1E-62AD-CE7593C0B92E" name="ESCUELA PK">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 00:49:36 UTC</createdTime>
+<ownerDesignName>IND</ownerDesignName>
+<engineerTo>
+<item key="29077A8A-B2CF-80B8-9B55-5F0B64130F15" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>98B24D47-373D-8A90-F68B-EFF43300AB6E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

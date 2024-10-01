@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0E5C9CA2-BDED-5BAA-64F1-6BAEA2BDDC38" name="PERTENENCIA">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:43:06 UTC</createdTime>
+<generatorID>BC87E64B-0A3B-F99F-179C-EF21782B5463</generatorID>
+<ownerDesignName>IND</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ESCUELA_id_escuela" id="26E3ED4B-816B-00AD-51A1-E1ECCF727928">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:43:06 UTC</createdTime>
+<generatorID>78F7481F-8AC3-8F19-7849-2F07C2B81019</generatorID>
+<ownerDesignName>IND</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="47CE2723-9460-65FB-9285-884B6EB877AA" referredColumn="AEE91686-8204-0693-D911-10CFD17DCB0F"/>
+</associations>
+</Column>
+<Column name="PERSONA_rut" id="412FDDF8-DD31-766F-479E-66175A4D2461">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:43:06 UTC</createdTime>
+<generatorID>AA9AF764-F0C3-A6D4-AE7E-B792C3991A68</generatorID>
+<ownerDesignName>IND</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9C324338-D696-3ADD-8BA1-1F46A26902BC" referredColumn="33258D37-420C-F600-8C8E-4F1F1D5272DE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3B652424-344A-0154-D528-2BBF9FEE9F87" name="PERTENENCIA_ESCUELA_FK">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:43:06 UTC</createdTime>
+<generatorID>04D64842-DF36-031E-C75D-F7707E3E90E7</generatorID>
+<ownerDesignName>IND</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26E3ED4B-816B-00AD-51A1-E1ECCF727928"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F86F7865-0BDF-00D6-70A8-44C29242198F" name="PERTENENCIA_PERSONA_FK">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:43:06 UTC</createdTime>
+<generatorID>D0C76532-4599-F78C-51C2-530B7A3B23F4</generatorID>
+<ownerDesignName>IND</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="412FDDF8-DD31-766F-479E-66175A4D2461"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="apoderado_de" directorySegmentName="seg_0" id="A1EBAE94-017E-33EC-666D-D200AF2087E5">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:40:56 UTC</createdTime>
+<ownerDesignName>IND</ownerDesignName>
+<engineerTo>
+<item key="29077A8A-B2CF-80B8-9B55-5F0B64130F15" value="true"/>
+</engineerTo>
+<targetPk>CC16BE2C-0D5E-5338-4754-7CAA2BF4566B</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>63CF9342-B8B3-BB86-2456-7B4AAC1C133B</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>63CF9342-B8B3-BB86-2456-7B4AAC1C133B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

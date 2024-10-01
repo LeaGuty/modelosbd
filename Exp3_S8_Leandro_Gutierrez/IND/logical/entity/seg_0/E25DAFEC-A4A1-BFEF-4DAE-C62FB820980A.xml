@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E25DAFEC-A4A1-BFEF-4DAE-C62FB820980A" name="GASTO">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:26:47 UTC</createdTime>
+<ownerDesignName>IND</ownerDesignName>
+<engineerTo>
+<item key="29077A8A-B2CF-80B8-9B55-5F0B64130F15" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_gasto" id="5E30CEBB-C9B5-3EFC-AC92-E03F2F9B2D9F">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:27:00 UTC</createdTime>
+<ownerDesignName>IND</ownerDesignName>
+<engineerTo>
+<item key="29077A8A-B2CF-80B8-9B55-5F0B64130F15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_gasto" id="CD0BF15B-9FDB-7E85-5635-3E6EFFE0F49C">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:28:02 UTC</createdTime>
+<ownerDesignName>IND</ownerDesignName>
+<engineerTo>
+<item key="29077A8A-B2CF-80B8-9B55-5F0B64130F15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_gasto" id="552980FF-9371-2DAD-BAB5-FA1CF11CA341">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:27:40 UTC</createdTime>
+<ownerDesignName>IND</ownerDesignName>
+<engineerTo>
+<item key="29077A8A-B2CF-80B8-9B55-5F0B64130F15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion_gasto" id="9B1DAF9C-A2A7-0FF3-3022-870E96FDA650">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:28:25 UTC</createdTime>
+<ownerDesignName>IND</ownerDesignName>
+<engineerTo>
+<item key="29077A8A-B2CF-80B8-9B55-5F0B64130F15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 BYTE</dataTypeSize>
+<ownDataTypeParameters>1000 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="monto_gasto" id="80FDD5CE-EF5E-51DA-D62C-EA42EE413717">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:29:08 UTC</createdTime>
+<ownerDesignName>IND</ownerDesignName>
+<engineerTo>
+<item key="29077A8A-B2CF-80B8-9B55-5F0B64130F15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>8</dataTypeScale>
+<ownDataTypeParameters>,0,8</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_escuela" id="8EB793DE-CE2C-317E-F136-EC15EF4AFFA8">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:30:19 UTC</createdTime>
+<generatorID>984E992B-FAFA-2A01-2271-3D1389484958</generatorID>
+<ownerDesignName>IND</ownerDesignName>
+<engineerTo>
+<item key="29077A8A-B2CF-80B8-9B55-5F0B64130F15" value="true"/>
+</engineerTo>
+<referedAttribute>98B24D47-373D-8A90-F68B-EFF43300AB6E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F58B027C-6487-F090-8693-6641274A28BD" name="GASTO PK">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:27:32 UTC</createdTime>
+<ownerDesignName>IND</ownerDesignName>
+<engineerTo>
+<item key="29077A8A-B2CF-80B8-9B55-5F0B64130F15" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5E30CEBB-C9B5-3EFC-AC92-E03F2F9B2D9F</attributeRef>
+<attributeRef>8EB793DE-CE2C-317E-F136-EC15EF4AFFA8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

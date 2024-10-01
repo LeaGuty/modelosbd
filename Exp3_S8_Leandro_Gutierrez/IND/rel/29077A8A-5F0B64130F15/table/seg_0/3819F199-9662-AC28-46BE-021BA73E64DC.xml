@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3819F199-9662-AC28-46BE-021BA73E64DC" name="GASTO">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:43:06 UTC</createdTime>
+<generatorID>E25DAFEC-A4A1-BFEF-4DAE-C62FB820980A</generatorID>
+<ownerDesignName>IND</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_gasto" id="6844E3D4-15F3-DA1C-C254-5240422B8798">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:43:06 UTC</createdTime>
+<generatorID>5E30CEBB-C9B5-3EFC-AC92-E03F2F9B2D9F</generatorID>
+<ownerDesignName>IND</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_gasto" id="A40A85CE-13F7-329D-0012-5B79CCD244E4">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:43:06 UTC</createdTime>
+<generatorID>CD0BF15B-9FDB-7E85-5635-3E6EFFE0F49C</generatorID>
+<ownerDesignName>IND</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_gasto" id="A608552E-B22B-6703-840D-53D2FC8181E4">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:43:06 UTC</createdTime>
+<generatorID>552980FF-9371-2DAD-BAB5-FA1CF11CA341</generatorID>
+<ownerDesignName>IND</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion_gasto" id="57D99EE5-F5D6-0035-8E05-CDAC4ADBE08B">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:43:06 UTC</createdTime>
+<generatorID>9B1DAF9C-A2A7-0FF3-3022-870E96FDA650</generatorID>
+<ownerDesignName>IND</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 BYTE</dataTypeSize>
+<ownDataTypeParameters>1000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto_gasto" id="74D20A02-9637-410E-CD79-9A6C6614610C">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:43:06 UTC</createdTime>
+<generatorID>80FDD5CE-EF5E-51DA-D62C-EA42EE413717</generatorID>
+<ownerDesignName>IND</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>8</dataTypeScale>
+<ownDataTypeParameters>,0,8</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESCUELA_id_escuela" id="EB084983-2DB8-BEFC-C70F-71E1AD7BDC17">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:43:06 UTC</createdTime>
+<generatorID>8EB793DE-CE2C-317E-F136-EC15EF4AFFA8</generatorID>
+<ownerDesignName>IND</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="98896512-E6BD-9A9B-FE04-AF8EDA1F2081" referredColumn="AEE91686-8204-0693-D911-10CFD17DCB0F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A37B4B41-9CE1-5BFC-7E8C-DE62516D07E4" name="GASTO_PK">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:43:06 UTC</createdTime>
+<generatorID>F58B027C-6487-F090-8693-6641274A28BD</generatorID>
+<ownerDesignName>IND</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6844E3D4-15F3-DA1C-C254-5240422B8798"/>
+<colUsage columnID="EB084983-2DB8-BEFC-C70F-71E1AD7BDC17"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E34659B-A81D-D1E8-7498-23FB3186FDDD" name="GASTO_ESCUELA_FK">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:43:06 UTC</createdTime>
+<generatorID>984E992B-FAFA-2A01-2271-3D1389484958</generatorID>
+<ownerDesignName>IND</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB084983-2DB8-BEFC-C70F-71E1AD7BDC17"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

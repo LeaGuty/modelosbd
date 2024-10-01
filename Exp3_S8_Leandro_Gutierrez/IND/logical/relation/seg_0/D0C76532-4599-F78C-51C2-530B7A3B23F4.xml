@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="inscrito" directorySegmentName="seg_0" id="D0C76532-4599-F78C-51C2-530B7A3B23F4">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:40:37 UTC</createdTime>
+<ownerDesignName>IND</ownerDesignName>
+<engineerTo>
+<item key="29077A8A-B2CF-80B8-9B55-5F0B64130F15" value="true"/>
+</engineerTo>
+<sourcePk>CC16BE2C-0D5E-5338-4754-7CAA2BF4566B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>63CF9342-B8B3-BB86-2456-7B4AAC1C133B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BC87E64B-0A3B-F99F-179C-EF21782B5463</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

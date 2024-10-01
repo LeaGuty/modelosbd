@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="gastado" directorySegmentName="seg_0" id="984E992B-FAFA-2A01-2271-3D1389484958">
+<createdBy>lgutierrez</createdBy>
+<createdTime>2024-10-01 01:30:19 UTC</createdTime>
+<ownerDesignName>IND</ownerDesignName>
+<engineerTo>
+<item key="29077A8A-B2CF-80B8-9B55-5F0B64130F15" value="true"/>
+</engineerTo>
+<sourcePk>E4FA5F34-221E-7E1E-62AD-CE7593C0B92E</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>53DE7D3C-D740-86E3-9EB2-0638C4B89288</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E25DAFEC-A4A1-BFEF-4DAE-C62FB820980A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
